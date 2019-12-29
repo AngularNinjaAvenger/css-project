@@ -1,0 +1,20 @@
+.wrapper{
+    display:flex;
+    flex-direction:column;
+    width:100%
+}
+
+.image-container{
+    display: block
+    width:70%;
+}
+
+.image-container > img{
+    width:50%
+}
+
+.info{
+    display: block
+    width:30%
+    
+}

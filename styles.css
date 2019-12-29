@@ -1,0 +1,278 @@
+html,
+body {
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.li-item {
+    display: inline-block;
+    padding-right: 10px
+}
+
+li>a {
+    text-decoration: none;
+    color: #0f8bff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold
+}
+
+li>a:hover {
+    color: white;
+
+}
+
+li>a:active {
+    color: white;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #2ddf5c;
+    height:10vh
+}
+
+.dsnav {
+    width: 80%
+}
+
+.sul {
+    float: right;
+    margin-right: 1%;
+}
+
+.home-icon {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center
+}
+
+.brand-home-icon {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.stt-cta {
+    background: red;
+    border: 5px solid red;
+    border-radius: 10px;
+    color: white
+}
+
+.stt-cta:hover {
+    color: #0f8bff
+}
+
+.stt-cta:active {
+    color: #0f8bff
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.side1 {
+    background:linear-gradient(to left bottom,red,blue,yellow,orange,green);
+    /* background: url('d.jpg'); */
+    /* background-size: 100%  500px; */
+    /* background-position: 10%; */
+    height: 100%
+}
+
+.s1 {
+    width: 100%;
+    height: 50%
+}
+
+.gtfyd {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: center
+}
+
+.coverd {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.wrapperhfs {
+    background-color: rgb(52, 158, 92);
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+}
+
+
+
+.btn-art {
+    margin-bottom: 10px;
+    background: #2a2a2a;
+    border: 10px solid #2a2a2a;
+    color: white;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    font-weight: bolder;
+    cursor: pointer
+}
+
+.btn-art:hover {
+    background: white;
+    border: 10px solid white;
+    color: #2a2a2a;
+}
+
+.btn-art:active {
+    background: white;
+    border: 10px solid white;
+    color: #2a2a2a;
+}
+
+
+
+.listiteml {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.dcww {
+    padding: 0px;
+}
+
+.specialstyling {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.554);
+}
+
+.specialstyling-h1 {
+    font-weight: bolder;
+    color: black
+}
+
+.trdSec {
+    background: rgb(212, 0, 35)
+}
+
+.thiinfosnfsf {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 10px
+}
+
+.ulll {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.thinfsof {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    color: white
+}
+
+.circleciel {
+    background: pink;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+    margin: auto
+}
+
+.godong {
+    font-weight: bolder
+}
+
+footer{
+    background: #2a2a2a;
+}
+
+footer li{
+    list-style-type:none
+}
+
+.owen-g{
+    color: red;
+    visibility: visible
+}
+
+.backdrop{
+    position: absolute;
+    width:100%;
+}
+.modal{
+    width:40%;
+    margin-top:40vh;
+    margin-right:auto;
+    margin-left:auto;
+    background:white;
+    height:40vh;
+    padding:2%;
+    text-align:center;
+}
+.aus{
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    font-weight:bolder;
+    font-size:1.5rem
+}
+.btn-wrapper{
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:5%;
+    width:40%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+.backdrop button{
+    padding:1%;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    font-size:1.2rem;
+    background:blue;
+    border:0px;
+    padding:2%;
+    width:40%
+}
+.backdrop button:nth-child(1){
+    background:green;
+    /* visibility:hidden */
+}
+
+
+.backdrop button:nth-child(2){
+    background:red
+}
+
+.transition{
+    opacity:0;
+    position: relative;
+    top:30px;
+    bottom:20px;
+    transition: opacity 5s;
+}

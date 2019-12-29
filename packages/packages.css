@@ -1,0 +1,318 @@
+html,
+body {
+    height: 100%;
+    margin: 0%;
+    padding: 0%
+}
+
+.li-item {
+    display: inline-block;
+    padding-right: 10px
+}
+
+li>a {
+    text-decoration: none;
+    color: #0f8bff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold
+}
+
+li>a:hover {
+    color: white;
+
+}
+
+li>a:active {
+    color: white;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #2ddf5c;
+    position:fixed;
+    z-index:1;
+    width:100%;
+    opacity: 10;
+    top:0px;
+}
+
+.dsnav {
+    width: 80%
+}
+
+.sul {
+    float: right;
+    margin-right: 1%;
+}
+
+.home-icon {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center
+}
+
+.brand-home-icon {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.stt-cta {
+    background: red;
+    border: 5px solid red;
+    border-radius: 10px;
+    color: white
+}
+
+.stt-cta:hover {
+    color: #0f8bff
+}
+
+.stt-cta:active {
+    color: #0f8bff
+}
+
+main {
+    width: 100%;
+    height: 100%
+}
+
+.side1 {
+    width: 100%;
+    background: url('d.jpg');
+    background-size: cover;
+    height: 100%
+}
+
+.s1 {
+    width: 100%;
+    height: 50%
+}
+
+.gtfyd {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: center
+}
+
+.coverd {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.wrapperhfs {
+    background-color: rgb(52, 158, 92);
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+}
+
+
+
+.btn-art {
+    margin-bottom: 10px;
+    background: #2a2a2a;
+    border: 10px solid #2a2a2a;
+    color: white;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    font-weight: bolder;
+    cursor: pointer
+}
+
+.btn-art:hover {
+    background: white;
+    border: 10px solid white;
+    color: #2a2a2a;
+}
+
+.btn-art:active {
+    background: white;
+    border: 10px solid white;
+    color: #2a2a2a;
+}
+
+
+
+.listiteml {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.dcww {
+    padding: 0px;
+}
+
+.specialstyling {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.554);
+}
+
+.specialstyling-h1 {
+    font-weight: bolder;
+    color: black
+}
+
+.trdSec {
+    background: rgb(212, 0, 35)
+}
+
+.thiinfosnfsf {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 10px
+}
+
+.ulll {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.thinfsof {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    color: white
+}
+
+.circleciel {
+    background: pink;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+    margin: auto
+}
+
+.godong {
+    font-weight: bolder
+}
+
+footer{
+    background: #2a2a2a;
+}
+
+footer li{
+    list-style-type:none
+}
+.allOfThem{
+    background: white;
+    border: 3px solid green;
+    margin-bottom: 1%;
+    width: 75%;
+    padding:5% 2% 5% 5%;
+    position:relative;
+    overflow:hidden
+}   
+
+
+.allOfThem > h1{
+    color: black;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+
+.allOfThem > h2{
+    color: rgb(29, 29, 29);
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+
+.uniq1{
+    margin-top: 3%;
+    background: #bbe4c5
+}
+
+.uniq2{
+    margin-top: 3%;
+    background: rgb(137, 255, 147);
+    float: right;
+}
+
+.uniq13{
+    margin-top: 3%;
+    background: rgb(8, 47, 10);
+    color: white;
+    clear: both;
+}
+
+.awonomongentiside{
+    border: 2px solid black;
+    padding:2%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    color:black
+}
+
+
+.background{
+    background-image: url("plans-background.jpg");
+    width:100%;
+    /* heigth:100%; */
+}
+
+.uniq1{
+    position:sticky
+}
+
+section > .pacakage_barge{
+    background-color:yellow;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:10px;
+    padding:10px;
+    font-weight:bolder;
+    width:20vw;
+    position: absolute;
+    text-align:center;
+    transform:rotate(40rem) translateX(30rem) translateY(30rem);
+    right:-20px;
+    top:10px;
+}
+
+.test-tranform{
+    width:50%;
+    height:50%;
+    background:blue;
+    margin:0px auto 0px auto;
+    display:flex;
+    flex-direction:row
+    /* transform:rotateX(20deg) rotateY(20deg) translateZ(-200) */
+}
+
+.test-tranfom-1{
+    width:50%;
+    height:50%;
+    background:yellow;
+
+}
+
+.test-tranfom-2{
+    width:50%;
+    height:50%;
+    background:brown;
+    
+}
